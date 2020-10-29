@@ -26,7 +26,7 @@
     <p>Read on for the process of my A/B Testing!</p>
     <br>
     <hr>
-    <br>
+   
     <h2>Making and Deploying the Websites</h2>
     <p>In this case study, I created two versions of a succulent shop website. Visit my site <a href = "https://cryptic-ocean-12798.herokuapp.com/">here</a>.</p>
     <p><b>Differences:</b> While Site A is derived strictly
@@ -60,7 +60,7 @@
         <div class = "card-text">
           <div>
             <p> <b>Null Hypothesis:</b> I hypothesize that the time of completion on Site B will be exactly the same.</p>
-            <p><b>Alternate:</b> I hypothesize that the time of completion on Site B will be decreased, for the proper and relevant buttons 
+            <p><b>Alternate Hypothesis:</b> I hypothesize that the time of completion on Site B will be decreased, for the proper and relevant buttons 
               to the operations possible in the website are more visible and easy to access than before.</p>      
           </div>
         </div>
@@ -75,7 +75,7 @@
         <div class = "card-text">
           <p>
             <b>Null Hypothesis:</b> I hypothesize that the return rate on Site B will be the exact same.</p>
-            <p><b>Alternate:</b> I hypothesize that the return rate on Site B will be decreased, for the adjustment of buttons and layout of the webpage 
+            <p><b>Alternate Hypothesis:</b> I hypothesize that the return rate on Site B will be decreased, for the adjustment of buttons and layout of the webpage 
               will make it easier for users to complete their tasks and move on with their day, negating the necessity to return.</p>
             
         </div>
@@ -99,26 +99,26 @@
       </p>
       <br>
       <div class= "card-container">
-        <img class= "wireframe" alt= "Screenshot of data logs" src= "images/log.png">
+        <img class= "wireframe" id= "logs" alt= "Screenshot of data logs" src= "images/log.png">
       </div>
 </div>
     <br>
     <p>Running this data through my python scripts produced <b>t-scores and p-values for the users' time of completion</b>, as well as
       <b>t-scores and chi^2 values for the users' return rate</b>.</p>
+      <br>
     <hr>
-    <br>
-    
     <h2>Conclusions + Infographic</h2>
     <p>From the collected t-scores, chi^2 values, and p-values of my data, I was able to determine not only the differences 
       of performance between each site, but also whether or not the results were significant. 
       </p>
     <br>
-    <br>
     <div class= "card-container">
-      <img class= "wireframe" alt= "Low-fidelity mockup of redesign" src= "images/low-fidelity.png">
+      <img class= "wireframe" id= "infographic" alt= "Infographic of A/B Testing Findings" src= "images/infographic.png">
     </div>
     <br>
     <br>
+    <hr>
+   
     
     <h2>Takeaways + Lessons Learned:</h2>
     <h4>Broad Takeaways</h4>
@@ -131,11 +131,13 @@
           would’ve produced a better model of the assortment of users that would be interacting with my site.
         </li>
         <br>
-        <li>My results were not significant enough to draw any broad conclusions about design principles and their effects on users, but perhaps we may conclude on a tentative level that at least in the isolated case of this study, these results show that tiny changes as small as the alignment of buttons next to a product page don’t produce significant changes in a user’s time of completion or return rate. 
+        <li>My results were not significant enough to draw any broad conclusions about design principles and their effects on users, 
+          but perhaps we may conclude on a tentative level that at least in the isolated case of this study, these results show that tiny 
+          changes as small as the alignment of buttons next to a product page don’t produce significant changes in a user’s time of completion or return rate. 
         </li>
       </ul>
     </p>
-    <br>
+
     <h4>Lessons Learned</h4>
     <p>
       I'd never tried conducting an A/B Test or delving into statistics before, so I definitely learned something new at every step
